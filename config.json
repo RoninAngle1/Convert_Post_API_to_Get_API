@@ -1,0 +1,11 @@
+{
+    "port": "8080", # Port the Service is listening
+    "post_url": "http://0.0.0.0:8080/PostSend", # Full Address of the service
+    "post_path": "/PostSMS", # Path of the Service
+    "get_url": "http://sample-web.com/InOutBox/GetAPI", # GET API Address
+    "get_username": "username", # Static Object 1
+    "get_password": "Password", # Static Object 2
+    "get_from": "XXXXXXXX", # Static Object 3
+    "post_username": "user1", # Post Request Username
+    "post_password": "user1" # Post Request Password
+  }
